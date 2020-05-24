@@ -1,5 +1,9 @@
 {
-  "name": "alerter",
+  "name": "polert",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wexxew/polert.git"
+  },
   "version": "1.0.0",
   "bin": {
     "polert": "./index.js"
@@ -9,8 +13,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "wex",
-  "license": "ISC",
+  "author": "wexxew",
+  "license": "GPL",
   "dependencies": {
     "argumentate": "^2.0.0",
     "node-pushover": "^0.2.2"
