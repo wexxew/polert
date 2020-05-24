@@ -2,7 +2,7 @@
   "name": "alerter",
   "version": "1.0.0",
   "bin": {
-    "alerter": "./index.js"
+    "polert": "./index.js"
   },
   "description": "",
   "main": "index.js",
