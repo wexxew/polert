@@ -2,21 +2,33 @@
   "name": "polert",
   "repository": {
     "type": "git",
-    "url": "https://github.com/wexxew/polert.git"
+    "url": "git+https://github.com/wexxew/polert.git"
   },
   "version": "1.0.0",
   "bin": {
-    "polert": "./index.js"
+    "polert": "index.js"
   },
-  "description": "",
+  "description": "PushOver Alerter from CLI",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "wexxew",
-  "license": "GPL",
+  "license": "GPL-3.0-or-later",
   "dependencies": {
     "argumentate": "^2.0.0",
     "node-pushover": "^0.2.2"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/wexxew/polert/issues"
+  },
+  "homepage": "https://github.com/wexxew/polert#readme",
+  "devDependencies": {},
+  "keywords": [
+    "pushover",
+    "push",
+    "alerts",
+    "notification",
+    "cli"
+  ]
 }
